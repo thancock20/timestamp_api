@@ -1,5 +1,7 @@
 # timestamp_api
-My implementation of the Timestamp API project from freeCodeCamp:
+My implementation of the Timestamp API project from freeCodeCamp.
+
+[See the app on Heroku](https://radiant-taiga-53469.herokuapp.com/)
 
 Implements the following User stories:
 * I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
@@ -19,5 +21,3 @@ node server.js
 
 ## Example output:
 `{ "unix": "1457308800", "natural": "March 7, 2016" }`
-
-[App on Heroku](https://radiant-taiga-53469.herokuapp.com/)
