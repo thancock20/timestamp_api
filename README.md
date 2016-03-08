@@ -6,9 +6,18 @@ Implements the following User stories:
 * If it does, it returns both the Unix timestamp and the natural language form of that date.
 * If it does not contain a date or Unix timestamp, it returns null for those properties.
 
+## Getting Started
+```
+npm install
+node server.js
+```
+
 ## Example usage:
-`https://radiant-taiga-53469.herokuapp.com/March 7, 2016`
-`https://radiant-taiga-53469.herokuapp.com/1457308800`
+`http://localhost:8080/March 7, 2016`
+
+`https://localhost:8080/1457308800`
 
 ## Example output:
 `{ "unix": "1457308800", "natural": "March 7, 2016" }`
+
+[App on Heroku](https://radiant-taiga-53469.herokuapp.com/)
