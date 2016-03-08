@@ -12,6 +12,10 @@ router.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+router.get('/main.css', function(req, res) {
+  res.sendFile(path.join(__dirname + '/main.css'));
+});
+
 router.get('/:date', function(req, res) {
   var timestamp = moment.unix(req.params.date);
   timestamp = timestamp.isValid() ? timestamp : moment(new Date(req.params.date));
